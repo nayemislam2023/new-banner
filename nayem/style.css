@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*menu css*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(194, 211, 233);
+}
+.header-laft{
+    margin-left: 90px;
+}
+.logo{
+    font-size: 34px;
+    color: #06BBCC;
+    margin-left: ;
+}
+.logo span{
+    margin-left: 10px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu ul li{
+    list-style: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 25px;
+    color: black;
+}
+.btn{
+    background-color: #06BBCC;
+   margin: auto;
+   padding: 16px 50px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+/*banner css*/
+section.full-banner{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(53,53,53, .7), rgba(53,53,53,.7)), url(/carousel-2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+.banner-rap{
+    margin-left: 200px;
+    width: 80%;
+}
+
+.banner-rap h5{
+    font-size: 30px;
+    margin-bottom:10px ;
+}
+.banner-rap h1{
+    font-size: 50px;
+    margin-bottom: 10px;  
+}
+.banner-rap p{
+    font-size: 22px;
+}
+.hero-btn{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    
+    
+    
+}
+.read-more-btn{
+    background-color: aqua;
+    padding: 15px 20px;
+    
+    
+    
+}
+.free-more-btn{
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-left: 20px;
+    
+    
+}
+.free-more-btn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+.read-more-btn a{
+    text-decoration: none;
+    padding: 10px 16px;
+    font-size: 18px;
+}
+
+/*banner css end*/
+.full-service{
+    width: 1200px;
+    margin-top: 50px;
+}
+.service-rapper{
+    height:350px;
+    width: 250px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
